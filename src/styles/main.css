@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+/*
+ * Header
+ *
+ */
+
+ .header {
+    min-height: 56px;
+    transition: min-height 0.3s;
+}
+
+.header__inner {
+    width: 100%;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.137);
+    position:relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.header__title {
+    font-weight: 500;
+    font-size: 2.5em;
+    margin: 0.5em 0.8em;
+    display: flex;
+    color: #876445;
+}
+.header__menu {
+    font-size: 38px;
+    text-decoration: none;
+    margin: 10px auto;
+    display: block;
+    width: 50px;
+}
+.header__menu a {
+    padding: 18px;
+}
+
+.header_image{
+    height: 50px;
+}
+/*
+ * Top level navigation
+ */
+
+.nav {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav__list {
+    width: 100%;
+    padding: 0;
+    margin-left: 60px;
+}
+
+.nav__item {
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    line-height: 24px;
+    padding: 28px;
+}
+
+.nav a {
+    padding: 15px;
+    font-size: 14px;
+    text-decoration: none;
+    text-shadow:  1px 1px #272727;
+    font-weight: 600;
+    color: #FFFF;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+.hero {
+    position:absolute;
+    top: 0;
+    height: 500px;
+    align-items: center;
+    min-height: 380px;
+    width: 100%;
+    text-align: center;
+    background-image: url("/images/Hero-image.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.hero__inner {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.hero__title {
+    position:relative ;
+    top: 200px;
+    right: 260px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.hero__tagline {
+    position:relative ;
+    top: 190px;
+    right: 187px;
+    color: #fff;
+    margin-top: 16px;
+    font-size: 22px;
+    font-weight: 600;
+}
