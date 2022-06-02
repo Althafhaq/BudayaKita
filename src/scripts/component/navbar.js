@@ -1,31 +1,36 @@
 class AppBar extends HTMLElement {
-    constructor() {
-      super();
-    }
-  
-    connectedCallback() {
-      this.render();
-    }
-  
-    render() {
-      this.innerHTML = `
-          
-          <div class="header__inner">
-                <h1 class="header__title">
-                <img src="/images/navbarlogo.png" alt="" class="header_image">
-                  </h1>  
-          <a href="#" id="menu" class="header__menu">☰</a>
-              <nav id="drawer" class="nav">
-                  <ul class="nav__list">
-                      <li class="nav__item"><a href="/">Budaya</a></li>
-                      <li class="nav__item"><a href="#/like">Destinasi</a></li>
-                      <li class="nav__item"><a href="" target="blank">About Us</a></li>
-                  </ul>
-              </nav>
-          </div>
-          `;
-    }
+  connectedCallback() {
+    this.render();
   }
-  
-  customElements.define('app-bar', AppBar);
-  
+
+  render() {
+    this.innerHTML = `
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="assets/images/brand.png" alt="" width="32" height="32">
+            BudayaKita
+          </a>
+          <button class="navbar-drawer" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close text-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body justify-content-end" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link" href="#/">Home</a>
+                <a class="nav-link" href="#/budaya">Budaya</a>
+                <a class="nav-link" href="#/destinasi">Destinasi</a>
+                <a class="nav-link" href="#/tentang-kami">Tentang</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>  
+    `;
+  }
+}
+
+customElements.define('app-bar', AppBar);

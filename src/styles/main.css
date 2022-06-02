@@ -1,137 +1,204 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-body, html {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-}
-
 body {
-    font-family: "Roboto", sans-serif;
-    font-size: 12px;
-    text-align: center;
+  font-family: 'Poppins', sans-serif !important;
 }
 
-/*
- * Header
- *
- */
-
- .header {
-    min-height: 56px;
-    transition: min-height 0.3s;
+.navbar-brand {
+  color: white;
+  font-family: 'Merriweather', serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
 }
 
-.header__inner {
-    width: 100%;
-    z-index: 100;
-    background-color: rgba(0, 0, 0, 0.137);
-    position:relative;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-}
-
-.header__title {
-    font-weight: 500;
-    font-size: 2.5em;
-    margin: 0.5em 0.8em;
-    display: flex;
-    color: #876445;
-}
-.header__menu {
-    font-size: 38px;
-    text-decoration: none;
-    margin: 10px auto;
-    display: block;
-    width: 50px;
-}
-.header__menu a {
-    padding: 18px;
-}
-
-.header_image{
-    height: 50px;
-}
-/*
- * Top level navigation
- */
-
-.nav {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.nav__list {
-    width: 100%;
-    padding: 0;
-    margin-left: 60px;
-}
-
-.nav__item {
-    box-sizing: border-box;
-    display: inline-block;
-    text-align: center;
-    line-height: 24px;
-    padding: 28px;
-}
-
-.nav a {
-    padding: 15px;
-    font-size: 14px;
-    text-decoration: none;
-    text-shadow:  1px 1px #272727;
-    font-weight: 600;
-    color: #FFFF;
-}
-
-.nav a:hover {
-    text-decoration: underline;
-    color: #000;
-}
-
-.hero {
-    position:absolute;
-    top: 0;
-    height: 500px;
-    align-items: center;
-    min-height: 380px;
-    width: 100%;
-    text-align: center;
-    background-image: url("/images/Hero-image.jpg");
-    background-size: cover;
-    background-position: center;
+.navbar-drawer {
+  padding: 16px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 24px;
 }
 
 
-.hero__inner {
-    margin: 0 auto;
-    max-width: 100%;
+.navbar-drawer:hover {
+  color: #F9AB30;
 }
 
-.hero__title {
-    position:relative ;
-    top: 200px;
-    right: 260px;
-    color: #fff;
-    font-weight: 400;
-    font-size: 20px;
+.navbar-nav .nav-link {
+  padding: 16px;
 }
 
-.hero__tagline {
-    position:relative ;
-    top: 190px;
-    right: 187px;
-    color: #fff;
-    margin-top: 16px;
-    font-size: 22px;
-    font-weight: 600;
+.nav-link {
+  color: #201E25 !important;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #F9AB30 !important;
+}
+
+.offcanvas-header .btn-close {
+  padding: 16px;
+}
+
+nav.onScroll {
+  background: rgba(0,0,0,0.45) !important;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+#hero {
+  width: 100%;
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-home {
+  background: url(assets/images/hero-1.jpg);
+}
+
+.hero-budaya {
+  background: url(assets/images/hero-2.jpg);
+}
+
+.hero-destinasi {
+  background: url(assets/images/hero-3.jpg);
+}
+
+.hero-tentang {
+  background: url(assets/images/hero-4.jpg);
+}
+
+#hero::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0));
+  position: absolute;
+  bottom: 0;
+}
+
+/* .offcanvas-end {
+  width: 100%;
+} */
+.hero-inner {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-inner-home {
+  padding-bottom: 100px;
+}
+
+.hero-title {
+  font-size: 30px;
+  font-weight: 600;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.hero-title span {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.section-title {
+  color: #201E25;
+  font-weight: 600;
+}
+
+.card {
+  border: none !important;
+  border-radius: 12px !important;
+  background: #000;
+}
+
+.highlight-img {
+  border-radius: 12px;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 270px;
+  position: relative;
+  opacity: 0.75;
+}
+
+.card-highlight-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.btn-highlight {
+  width: 200px;
+  height: 40px;
+  color: white !important;
+  font-weight: 500 !important;
+  background-color: #F9AB30 !important;
+  opacity: 0.8;
+}
+
+/* Kebudayaan */
+.budaya-img {
+  border-radius: 12px;
+  object-fit: cover;
+  object-position: top;
+  width: 100%;
+  height: 350px;
+  text-align: center;
+  position: relative;
+}
+
+.budaya-name {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  padding: 0 32px;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: left;
+  align-items: center;
+  display: flex;
+  border-radius: 0 0 12px 12px;
+}
+
+.budaya-name a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  padding: 10px 0;
+}
+
+.budaya-name a i {
+  font-size: 24px;
+  padding: 10px 16px;
+}
+
+.card-team {
+  border: solid 1px #00000040 !important;
+}
+
+.card-team-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50px;
+}
+
+.img-team {
+  margin-top: 10px;
+  width: 175px;
+}
+
+/* Footer */
+.app-footer {
+  background-color: #201E25;
+}
+
+.nav-link-footer {
+  color: white !important;
+  text-decoration: none;
 }
