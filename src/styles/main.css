@@ -3,7 +3,7 @@ body {
 }
 
 .navbar-brand {
-  color: white;
+  color: white !important;
   font-family: 'Merriweather', serif;
   font-size: 24px;
   font-weight: 700;
@@ -199,6 +199,11 @@ nav.onScroll {
 }
 
 .nav-link-footer {
-  color: white !important;
+  color: white;
   text-decoration: none;
+  padding: 12px;
+}
+
+.nav-link-footer:hover {
+  color: #F9AB30;
 }
