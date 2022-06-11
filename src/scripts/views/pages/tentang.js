@@ -24,12 +24,12 @@ const TentangKami = {
           <div class="budaya-list row g-2">
             <div class="col-12 col-md-6 col-lg-3">
               <div class="card card-team">
-                <img src="assets/images/blank-profile.png" class="img-team rounded-circle mx-auto d-block" alt="...">
+                <img src="assets/images/foto.JPG" class="img-team rounded-circle mx-auto d-block" alt="...">
                 <div class="card-body text-center">
                   <h5 class="card-title card-team-title">Althaf Haq Dhaifulloh</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">Nama Univ</h6>
-                  <a href="#" class="card-link"><i class="fab fa-instagram"></i></a>
-                  <a href="#" class="card-link"><i class="fab fa-github"></i></a>
+                  <h6 class="card-subtitle mb-2 text-muted">Universitas Bina Insani</h6>
+                  <a href="https://www.instagram.com/rai_sin1/" target="_blank" class="card-link"><i class="fab fa-instagram"></i></a>
+                  <a href="https://github.com/Althafhaq" target="_blank" class="card-link"><i class="fab fa-github"></i></a>
                   <a href="#" class="card-link"><i class="fab fa-linkedin"></i></a>
                 </div>
               </div>

@@ -2,7 +2,7 @@
     "budayas": [
         {
              "id": "2d4b1efe-d8fa-46fd-be4c-10a5ce29efa6",
-            "foto": "https://www.kelaspintar.id/blog/wp-content/uploads/2021/04/Sejarah-dan-Makna-Motif-Batik-Mega-Mendung-yang-Harus-Kamu-Ketahui.png",
+            "foto": "/assets/images/picture/batik_megamendung.png",
             "nama": "Batik Megamendung",
             "deskripsi": "merupakan karya seni batik yang identik dan bahkan menjadi ikon batik daerah Cirebon dan daerah Indonesia lainnya. Motif batik ini mempunyai kekhasan yang tidak ditemui di daerah penghasil batik lain. Bahkan karena hanya ada di Cirebon dan merupakan mahakarya, Departemen Kebudayaan dan Pariwisata akan mendaftarkan motif megamendung ke UNESCO untuk mendapatkan pengakuan sebagai salah satu warisan dunia. Motif megamendung sebagai motif dasar batik sudah dikenal luas sampai ke manca negara. Sebagai bukti ketenarannya, motif megamendung pernah dijadikan cover sebuah buku batik terbitan luar negeri yang berjudul Batik Design, karya seorang berkebangsaan Belanda bernama Pepin van Roojen. Kekhasan motif megamendung tidak saja pada motifnya yang berupa gambar menyerupai awan dengan warna-warna tegas, tetapi juga nilai-nilai filosofi yang terkandung di dalam motifnya.",
             "asal": "Cirebon",
@@ -10,7 +10,7 @@
         },
         {
             "id": "478e890d-6afe-4194-bb18-abace67e3d09",
-            "foto": "https://asset.kompas.com/crops/SR-fKV8jE8ALyzP2WSqf-dbKGec=/0x91:1000x591/750x500/data/photo/2019/12/14/5df48b6692b3a.jpg",
+            "foto": "/assets/images/picture/angklung.jpg",
             "nama": "Angklung",
             "deskripsi": "Angklung  adalah alat musik multitonal (bernada ganda) yang berkembang dari masyarakat Sunda. Alat musik ini dibuat dari bambu, dibunyikan dengan cara digoyangkan (bunyi disebabkan oleh benturan badan pipa bambu) sehingga menghasilkan bunyi yang bergetar dalam susunan nada 2, 3, sampai 4 nada dalam setiap ukuran, baik besar maupun kecil. Dictionary of the Sunda Language karya Jonathan Rigg, yang diterbitkan pada tahun 1862 di Batavia, menuliskan bahwa angklung adalah alat musik yang terbuat dari pipa-pipa bambu yang dipotong ujung-ujungnya menyerupai pipa-pipa dalam suatu organ, dan diikat bersama dalam suatu bingkai, digetarkan untuk menghasilkan bunyi.Angklung terdaftar sebagai Karya Agung Warisan Budaya Lisan dan Nonbendawi Manusia dari UNESCO sejak November 2010.[1]",
             "asal": "Jawa Barat",
@@ -18,7 +18,7 @@
         },
         {
             "id": "d41b22f6-f559-4a6c-bb2f-1379c44192e5",
-            "foto": "https://i0.wp.com/seruni.id/wp-content/uploads/2020/01/Tarian-Merak.jpg?w=800&ssl=1",
+            "foto": "/assets/images/picture/tari_merak.webp",
             "nama": "Tari Merak",
             "deskripsi": "Tari Merak merupakan salah satu ragam tarian kreasi baru yang mengekpresikan kehidupan binatang, yaitu burung merak. Tata cara dan geraknya diambil dari kehidupan merak yang diangkat ke pentas oleh Seniman Sunda Raden Tjetjep Somantri, Ide dari Tari merak sendiri ketika Raden Tjejep Soemantri melihat tarian Dadak Merak pada Reog Ponorogo, maka dari itu aksesoris kepala merak pada tari merak mematuk manik-manik seperti tasbih yang ada pada merak pada Reog Ponorogo.Merak yaitu binatang sebesar ayam, bulunya halus dan dikepalanya memiliki seperti mahkota.[3] Kehidupan merak yang selalu mengembangkan bulu ekornya agar menarik burung merak wanita menginspirasikan R. Tjetje Somantri untuk membuat tari Merak ini.",
             "asal": "Bandung,Jawa Barat",
@@ -26,7 +26,7 @@
         },
         {
             "id": "c3032ee9-13b5-4d70-998e-f5ab955e9418",
-            "foto": "https://www.inacraftnews.com/wp-content/uploads/2019/04/32463822_m-r-660x330.jpg",
+            "foto": "/assets/images/picture/wayang_golek.jpg",
             "nama": "Wayang Golek",
             "deskripsi": "Wayang Golek merupakan salah satu dari ragam kesenian wayang, yang berasal dari masyarakat Sunda.Pertunjukan seni wayang golek merupakan seni pertunjukan teater rakyat yang banyak dipagelarkan. Selain berfungsi sebagai pelengkap upacara selamatan atau ruwatan, pertunjukan seni wayang golek juga menjadi tontonan dan hiburan dalam perhelatan tertentu.Sejak 1920-an, selama pertunjukan wayang golek diiringi oleh sinden. Popularitas sinden pada masa-masa itu sangat tinggi sehingga mengalahkan popularitas dalang wayang golek itu sendiri, terutama ketika zamannya Upit Sarimanah dan Titim Patimah sekitar tahun 1960-an.Wayang golek saat ini lebih dominan sebagai seni pertunjukan rakyat, yang memiliki fungsi yang relevan dengan kebutuhan-kebutuhan masyarakat lingkungannya, baik kebutuhan spiritual maupun material.Hal demikian dapat kita lihat dari beberapa kegiatan di masyarakat misalnya ketika ada perayaan, baik hajatan (pesta kenduri) dalam rangka khitanan, pernikahan dan lain-lain adakalanya diriingi dengan pertunjukan wayang golek.",
             "asal": "cirebon",
@@ -37,28 +37,28 @@
     "destinasis": [
         {
             "id": "3d4eed32-2fb3-445d-8a95-8718ec6cabb1",
-            "foto": "https://anekatempatwisata.com/wp-content/uploads/2017/07/Green-Canyon-Pangandaran.jpg",
+            "foto": "/assets/images/picture/green_canyon.jpg",
             "nama": "Green Canyon",
             "deskripsi": "Green Canyon (Ngarai Hijau) adalah salah satu objek wisata di Jawa Barat yang terletak di Desa Kertayasa Kecamatan Cijulang, Kabupaten Pangandaran. Objek wisata ini berjarak ± 31 km dari Pangandaran. Ngarai ini terbentuk dari erosi tanah akibat aliran sungai Cijulang selama jutaan tahun yang menembus gua dengan stalaktit dan stalakmit yang mempesona serta diapit oleh dua bukit dengan bebatuan dan rimbunnya pepohonan menyajikan atraksi alam yang khas dan menantang. Untuk mencapai tempat ini, kita harus menyewa sebuah perahu kayuh dari dermaga Ciseureuh. Perjalanannya memakan waktu kurang lebih 30-45 menit dengan jarak sekitar 3 km untuk sampai ke Green Canyon. Harga sampannya sekitar Rp200.000,-/Perahu untuk maksimal 5 orang dan beroperasi setiap hari mulai dari pukul 7.30 sampai 16.00 WIB,untuk hari Jum'at Tutup. Sepanjang perjalanan, mata kita akan dimanjakan oleh hijau teduhnya warna air sungai. Di mulut gua terdapat air terjun Palatar sehingga suasana di objek wisata ini terasa begitu sejuk. Kegiatan yang dapat dilakukan di antaranya panjat tebing, berenang, bersampan sambil memancing. Untuk mencapai lokasi ini wisatawan dapat menggunakan perahu yang banyak tersedia di Dermaga Ciseureuh, baik perahu tempel maupun perahu kayuh. Objek wisata ini berdekatan degan objek wisata Batu Karas serta Bandar Udara Nusawiru.",
             "lokasi": "Pangandaran"
         },
         {
             "id": "748da570-d10c-43e4-816f-41ab8b75a7f6",
-            "foto": "https://indonesiainside.id/wp-content/uploads/2020/07/kebun-raya-bogor.jpg",
+            "foto": "/assets/images/picture/kebun_raya_bogor.jpg",
             "nama": "kebun raya bogor",
             "deskripsi": "Kebun Raya Bogor atau Kebun Botani Bogor (bahasa Sunda: ᮊᮨᮘᮧᮔ᮪ ᮛᮚ ᮘᮧᮌᮧᮁ, translit. Kebon Raya Bogor) adalah sebuah kebun botani besar yang terletak di Kota Bogor, Indonesia. Luasnya mencapai 87 hektar dan memiliki 15.000 jenis koleksi pohon dan tumbuhan.Saat ini Kebun Raya Bogor ramai dikunjungi sebagai tempat wisata, terutama hari Sabtu dan Minggu. Tiket masuknya Rp 30.000. Di sekitar Kebun Raya Bogor tersebar pusat-pusat keilmuan yaitu Herbarium Bogoriense, Museum Zoologi Bogor, dan PUSTAKA.",
             "lokasi": "Bogor"
         },
         {
             "id": "e80afe9c-8e1f-4880-947e-ddfa6fd277e6",
-            "foto": "https://blog.reservasi.com/wp-content/uploads/2016/09/stone-garden-padalarang-bandung.jpg",
+            "foto": "/assets/images/picture/stone_garden.jpg",
             "nama": "Stone garden",
             "deskripsi": "Stone Garden Padalarang berada di ketinggian sekitar 700 Mdpl dengan didominasi bebatuan besar. Jika kamu berkunjung kesini saat siang hari. Pasti terasa cukup panas dan dahaga. Untuk itu di sana sudah disedikan beberapa tempat berteduh yang bisa digunakan. Pemandangan unik di Stone Garden Padalarang sangat menarik banyak wisatawan untuk datang. Terutama para pecinta fotografi yang ingin mendapatkan keindahan foto pada formasi bebatuan di kawasan Geopark ini. Apabila kamu mencari lokasi hunting foto yang keren, Kunjungilah Stone Garden Padalarang di Bandung Barat ini.",
             "lokasi": "Kuningan"
         },
         {
             "id": "751fa9fe-006c-44c6-891e-8d10112d2a49",
-            "foto": "http://assets.kompasiana.com/items/album/2019/12/17/kampung-naga-1-7841-5df832d8d541df23656bc982.jpg?t=o&v=770",
+            "foto": "/assets/images/picture/kampung_naga.jpg",
             "nama": "Kampung naga",
             "deskripsi": "Kampung Naga adalah sebuah perkampungan tradisional yang terletak di Kabupaten Tasikmalaya, Jawa Barat. Kampung ini merupakan suatu perkampungan yang dihuni oleh sekelompok masyarakat yang sangat kuat dalam memegang adat istiadat peninggalan leluhurnya, dalam hal ini adalah adat Sunda. Seperti permukiman Badui, Kampung Naga menjadi objek kajian antropologi mengenai kehidupan masyarakat pedesaan Sunda pada masa peralihan dari pengaruh Hindu menuju pengaruh Islam di Jawa Barat.",
             "lokasi": "Tasikmalaya"

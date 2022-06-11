@@ -3,12 +3,15 @@ import './component/navbar';
 import './component/footer';
 import '../styles/main.css';
 import '../styles/responsive.css';
+import './component/skip_link';
+
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './views/app';
+import swRegister from './utils/sw-register';
 
 const app = new App({
-  content: document.querySelector('#mainContent'),
+  content: document.querySelector('main'),
 });
 
 window.addEventListener('hashchange', () => {
@@ -17,6 +20,7 @@ window.addEventListener('hashchange', () => {
 
 window.addEventListener('load', () => {
   app.renderPage();
+  swRegister();
 });
 
 window.addEventListener('scroll', () => {

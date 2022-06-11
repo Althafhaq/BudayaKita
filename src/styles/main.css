@@ -207,3 +207,19 @@ nav.onScroll {
 .nav-link-footer:hover {
   color: #F9AB30;
 }
+
+
+.skip-link {
+  position: absolute;
+  top: -60px;
+  left: 0;
+  background-color: #bf1722;
+  color: white;
+  padding: 18px;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
