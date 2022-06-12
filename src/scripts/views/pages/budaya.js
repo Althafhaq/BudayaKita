@@ -19,7 +19,8 @@ const Budaya = {
         <div class="container budaya">
           <h2 class="section-title text-center mb-3">Kebudayaan</h2>
           <div class="budaya-list row g-2" id="budaya">
-          
+            
+            </div>
           </div>
         </div>
       </section>
@@ -28,11 +29,10 @@ const Budaya = {
   },
 
   async afterRender() {
-    // Fungsi ini akan dipanggil setelah render()
-    const budayakita = await BudayakitaDbSource.homeBudaya();
-    const budayaContainer = document.querySelector('#budaya');
-    budayakita.forEach((budaya) => {
-      budayaContainer.innerHTML += createBudayaList(budaya);
+    const cultures = await BudayakitaDbSource.budayaPage();
+    const culturesContainer = document.querySelector('#budaya');
+    cultures.forEach((culture) => {
+      culturesContainer.innerHTML += createBudayaList(culture);
     });
   },
 };

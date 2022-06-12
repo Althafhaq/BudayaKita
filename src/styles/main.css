@@ -2,49 +2,26 @@ body {
   font-family: 'Poppins', sans-serif !important;
 }
 
-.navbar-brand {
-  color: white !important;
-  font-family: 'Merriweather', serif;
-  font-size: 24px;
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.navbar-drawer {
-  padding: 16px;
-  border: none;
-  background-color: transparent;
+/* 
+  Skip link
+*/
+.skip-link {
+  position: absolute;
+  top: -60px;
+  left: 0;
+  background-color: #bf1722;
   color: white;
-  font-size: 24px;
+  padding: 18px;
+  z-index: 100;
 }
 
-
-.navbar-drawer:hover {
-  color: #F9AB30;
+.skip-link:focus {
+  top: 0;
 }
 
-.navbar-nav .nav-link {
-  padding: 16px;
-}
-
-.nav-link {
-  color: #201E25 !important;
-  font-weight: 500;
-}
-
-.nav-link:hover {
-  color: #F9AB30 !important;
-}
-
-.offcanvas-header .btn-close {
-  padding: 16px;
-}
-
-nav.onScroll {
-  background: rgba(0,0,0,0.45) !important;
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.4);
-}
-
+/* 
+  Hero
+*/
 #hero {
   width: 100%;
   height: 80vh;
@@ -54,34 +31,21 @@ nav.onScroll {
 }
 
 .hero-home {
-  background: url(assets/images/hero-1.jpg);
+  background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)), url(assets/images/hero-1.jpg);
 }
 
 .hero-budaya {
-  background: url(assets/images/hero-2.jpg);
+  background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)), url(assets/images/hero-2.jpg);
 }
 
 .hero-destinasi {
-  background: url(assets/images/hero-3.jpg);
+  background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)), url(assets/images/hero-3.jpg);
 }
 
 .hero-tentang {
-  background: url(assets/images/hero-4.jpg);
+  background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)), url(assets/images/hero-4.jpg);
 }
 
-#hero::after {
-  content: '';
-  display: block;
-  width: 100%;
-  height: 100%;
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0));
-  position: absolute;
-  bottom: 0;
-}
-
-/* .offcanvas-end {
-  width: 100%;
-} */
 .hero-inner {
   position: relative;
   z-index: 1;
@@ -102,6 +66,9 @@ nav.onScroll {
   font-weight: 500;
 }
 
+/* 
+  Section
+*/
 .section-title {
   color: #201E25;
   font-weight: 600;
@@ -113,6 +80,9 @@ nav.onScroll {
   background: #000;
 }
 
+/* 
+  Highlight
+*/
 .highlight-img {
   border-radius: 12px;
   object-fit: cover;
@@ -139,8 +109,10 @@ nav.onScroll {
   opacity: 0.8;
 }
 
-/* Kebudayaan */
-.budaya-img {
+/*
+  Card
+*/
+.card-image {
   border-radius: 12px;
   object-fit: cover;
   object-position: top;
@@ -150,7 +122,7 @@ nav.onScroll {
   position: relative;
 }
 
-.budaya-name {
+.card-name {
   position: absolute;
   bottom: 0px;
   left: 0;
@@ -164,7 +136,7 @@ nav.onScroll {
   border-radius: 0 0 12px 12px;
 }
 
-.budaya-name a {
+.card-name a {
   text-decoration: none;
   font-size: 18px;
   font-weight: 500;
@@ -172,7 +144,7 @@ nav.onScroll {
   padding: 10px 0;
 }
 
-.budaya-name a i {
+.card-name a i {
   font-size: 24px;
   padding: 10px 16px;
 }
@@ -207,19 +179,3 @@ nav.onScroll {
 .nav-link-footer:hover {
   color: #F9AB30;
 }
-
-
-.skip-link {
-  position: absolute;
-  top: -60px;
-  left: 0;
-  background-color: #bf1722;
-  color: white;
-  padding: 18px;
-  z-index: 100;
-}
-
-.skip-link:focus {
-  top: 0;
-}
-

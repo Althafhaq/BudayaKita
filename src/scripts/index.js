@@ -2,6 +2,8 @@ import 'regenerator-runtime';
 import './component/navbar';
 import './component/footer';
 import '../styles/main.css';
+import '../styles/navbar.css';
+import '../styles/detail.css';
 import '../styles/responsive.css';
 import './component/skip_link';
 

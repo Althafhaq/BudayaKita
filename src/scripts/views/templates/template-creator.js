@@ -1,34 +1,117 @@
-const createBudayaList = (budaya) => `<div class="col-12 col-md-6 col-lg-3">
-        <div class="card">
-          <img src="${budaya.foto}" class="budaya-img" alt="">
-          <div class="budaya-name d-flex justify-content-between">
-            <a href="">${budaya.nama}</a>
-            <a href=""><i class="fas fa-angle-right"></i></a>
+const createBudayaList = (culture) => `
+  <div class="col-12 col-md-6 col-lg-3">
+    <div class="card">
+      <img src="${culture.imageUrl}" class="card-image" alt="">
+      <div class="card-name d-flex justify-content-between">
+        <a href="${`/#/detail-budaya/${culture.id}`}">${culture.nama}</a>
+        <a href="${`/#/detail-budaya/${culture.id}`}"><i class="fas fa-angle-right"></i></a>
+      </div>
+    </div>
+  </div>
+`;
+
+const createBudayaDetailHero = (culture) => `
+  <img class="hero-detail-bg" src="${culture.imageUrl}">
+  <div class="container">
+    <div class="hero-detail-inner d-flex flex-column justify-content-center align-items-center">
+      <h2 class="hero-title text-white">${culture.nama}</h2>
+    </div>
+  </div>
+`;
+
+const createBudayaDetail = (culture) => `
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#/">Home</a></li>
+        <li class="breadcrumb-item"><a href="#/budaya">Budaya</a></li>
+        <li class="breadcrumb-item active" aria-current="page">${culture.nama}</li>
+      </ol>
+    </nav>
+    <div>
+      <div class="detail-budaya-info py-3">
+        <div class="d-flex flex-row">
+          <div class="detail-icon d-flex flex-column justify-content-center">
+            <i class="fas fa-tag"></i>
+          </div>
+          <div class="detail-text d-flex flex-column justify-content-center detail-kategori px-2">
+            <h4>Kategori</h4>
+            <p>${culture.kategori}</p>
           </div>
         </div>
       </div>
-        `;
-
-const createDestinasiContainer = () => `
-        <!-- Destinasi -->
-        <div class="container budaya">
-            <h2 class="section-title text-center mb-3">Destinasi</h2>
-            <div class="budaya-list row g-2" id="destinasi-list">
-
-            </div>
-        </div>
-      </section>
+      <div>
+        <h3>Deskripsi</h3>
+        <p>${culture.deskripsi}</p>
+      </div>
+    </div>
+  </div>
 `;
 
-const createDestinasiList = (destinasi) => `<div class="col-12 col-md-6 col-lg-3">
-        <div class="card">
-            <img src="${destinasi.foto}" class="budaya-img" alt="">
-            <div class="budaya-name d-flex justify-content-between">
-            <a href="">${destinasi.nama}</a>
-            <a href=""><i class="fas fa-angle-right"></i></a>
-            </div>
+const createDestinasiList = (destination) => `
+  <div class="col-12 col-md-6 col-lg-3">
+    <div class="card">
+        <img src="${destination.imageUrl}" class="card-image" alt="">
+        <div class="card-name d-flex justify-content-between">
+        <a href="#/detail-destinasi/${destination.id}">${destination.nama}</a>
+        <a href=""><i class="fas fa-angle-right"></i></a>
         </div>
-        </div>
-        `;
+    </div>
+  </div>
+`;
 
-export { createBudayaList, createDestinasiList, createDestinasiContainer };
+const createDestinasiDetailHero = (destination) => `
+  <img class="hero-detail-bg" src="${destination.imageUrl}">
+  <div class="container">
+    <div class="hero-detail-inner d-flex flex-column justify-content-center align-items-center">
+      <h2 class="hero-title text-white">${destination.nama}</h2>
+    </div>
+  </div>
+`;
+
+const createDestinasiDetail = (destination) => `
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#/">Home</a></li>
+        <li class="breadcrumb-item"><a href="#/destinasi">Destinasi</a></li>
+        <li class="breadcrumb-item active" aria-current="page">${destination.nama}</li>
+      </ol>
+    </nav>
+    <div class="detail-destinasi">
+      <div class="py-3">
+        <div class="d-flex flex-row py-2">
+          <div class="detail-icon d-flex flex-column justify-content-center">
+            <i class="fas fa-building"></i>
+          </div>
+          <div class="detail-text d-flex flex-column justify-content-center px-2">
+            <h4>Kota</h4>
+            <p>${destination.kota}</p>
+          </div>
+        </div>
+        <div class="d-flex flex-row py-2">
+          <div class="detail-icon d-flex flex-column justify-content-center">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <div class="detail-text flex-column justify-content-center detail-kategori px-2">
+            <h4>Alamat</h4>
+            <p>${destination.alamat}</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h3>Deskripsi</h3>
+        <p>${destination.deskripsi}</p>
+      </div>
+    </div>
+  </div>
+`;
+
+export {
+  createBudayaList,
+  createBudayaDetailHero,
+  createBudayaDetail,
+  createDestinasiList,
+  createDestinasiDetailHero,
+  createDestinasiDetail,
+};

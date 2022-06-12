@@ -1,5 +1,5 @@
 import BudayakitaDbSource from '../../data/budayakitaDB';
-import { createBudayaList } from '../templates/template-creator';
+import { createDestinasiList } from '../templates/template-creator';
 
 const Destinasi = {
   async render() {
@@ -18,7 +18,7 @@ const Destinasi = {
       <section class="container-fluid my-5">
         <div class="container budaya">
           <h2 class="section-title text-center mb-3">Destinasi</h2>
-          <div class="budaya-list row g-2" id="destinasi">
+          <div class="destinasi-list row g-2" id="destinasi">
             
           </div>
         </div>
@@ -28,11 +28,10 @@ const Destinasi = {
   },
 
   async afterRender() {
-    // Fungsi ini akan dipanggil setelah render()
-    const destinasikita = await BudayakitaDbSource.homeDestinasi();
-    const destinasiContainer = document.querySelector('#destinasi');
-    destinasikita.forEach((destinasi) => {
-      destinasiContainer.innerHTML += createBudayaList(destinasi);
+    const destinations = await BudayakitaDbSource.homeDestinasi();
+    const destinationsContainer = document.querySelector('#destinasi');
+    destinations.forEach((destination) => {
+      destinationsContainer.innerHTML += createDestinasiList(destination);
     });
   },
 };
