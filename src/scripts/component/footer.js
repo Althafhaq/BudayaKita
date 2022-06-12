@@ -24,7 +24,7 @@ class AppFooter extends HTMLElement {
             </div>
           </div>
           <div class="pt-4 border-top text-white text-center">
-            <p>Copyright <i class="fa fa-copyright"></i> 2022, CFSG-55</p>
+            <p>Copyright <i class="fa fa-copyright"></i> 2022, CPSG-55</p>
           </div>
         </div>
       </div>

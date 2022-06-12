@@ -44,6 +44,10 @@ const createBudayaDetail = (culture) => `
         <h3>Deskripsi</h3>
         <p>${culture.deskripsi}</p>
       </div>
+      <div>
+        <h3>Sejarah</h3>
+        <p>${culture.sejarah}</p>
+      </div>
     </div>
   </div>
 `;

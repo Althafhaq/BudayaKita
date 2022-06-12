@@ -14,7 +14,8 @@ const TentangKami = {
       <section class="container-fluid my-5">
         <div class="container">
           <h2 class="section-title text-center mb-3">Tentang BudayaKita</h2>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium esse ad nulla, dolores vel facilis, officia non aliquid molestiae, sapiente dolor quae nisi maxime quam impedit voluptatibus consequuntur commodi. Facilis.</p>
+          <p>Untuk mengetahui informasi mengenai keanekaragaman budaya dan adat istiadat tersebut, biasanya dapat diperoleh melalui media-media yang ada seperti buku pelajaran, koran, majalah, ensiklopedia, radio, dan televisi. Tetapi dengan cara tersebut akan memakan waktu dan minimnya tentang informasi tersebut. Seiring dengan perkembangan teknologi informasi saat ini, kami memanfaatkan teknologi komputer sebagai media informasi yang berbentuk website, karena lebih efisien dan dapat menjangkau ke seluruh daerah atau tempat serta beberapa keunggulan lainnya.
+          </p>
         </div>
       </section>
 
@@ -24,7 +25,7 @@ const TentangKami = {
           <div class="budaya-list row g-2">
             <div class="col-12 col-md-6 col-lg-3">
               <div class="card card-team">
-                <img src="assets/images/foto.JPG" class="img-team rounded-circle mx-auto d-block" alt="...">
+                <img src="assets/images/fotoA.png" class="img-team rounded-circle mx-auto d-block" alt="...">
                 <div class="card-body text-center">
                   <h5 class="card-title card-team-title">Althaf Haq Dhaifulloh</h5>
                   <h6 class="card-subtitle mb-2 text-muted">Universitas Bina Insani</h6>
@@ -48,10 +49,10 @@ const TentangKami = {
             </div>
             <div class="col-12 col-md-6 col-lg-3">
               <div class="card card-team">
-                <img src="assets/images/blank-profile.png" class="img-team rounded-circle mx-auto d-block" alt="...">
+                <img src="assets/images/fotoC.png" class="img-team rounded-circle mx-auto d-block" alt="...">
                 <div class="card-body text-center">
                   <h5 class="card-title card-team-title">Dimas Budi Utomo</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">Nama Univ</h6>
+                  <h6 class="card-subtitle mb-2 text-muted">Universitas Pamulang</h6>
                   <a href="#" class="card-link"><i class="fab fa-instagram"></i></a>
                   <a href="#" class="card-link"><i class="fab fa-github"></i></a>
                   <a href="#" class="card-link"><i class="fab fa-linkedin"></i></a>
@@ -60,10 +61,10 @@ const TentangKami = {
             </div>
             <div class="col-12 col-md-6 col-lg-3">
               <div class="card card-team">
-                <img src="assets/images/blank-profile.png" class="img-team rounded-circle mx-auto d-block" alt="...">
+                <img src="assets/images/fotoB.jpg" class="img-team rounded-circle mx-auto d-block" alt="...">
                 <div class="card-body text-center">
                   <h5 class="card-title card-team-title">Farach Ghanisa Damayanti</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">Nama Univ</h6>
+                  <h6 class="card-subtitle mb-2 text-muted">Universitas Gunadarma</h6>
                   <a href="#" class="card-link"><i class="fab fa-instagram"></i></a>
                   <a href="#" class="card-link"><i class="fab fa-github"></i></a>
                   <a href="#" class="card-link"><i class="fab fa-linkedin"></i></a>
