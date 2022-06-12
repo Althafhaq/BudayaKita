@@ -1,6 +1,5 @@
 import CONFIG from '../globals/config';
 
-/* eslint-disable no-underscore-dangle */
 const CacheHelper = {
   async cachingAppShell(requests) {
     const cache = await this._openCache();
@@ -18,7 +17,6 @@ const CacheHelper = {
     const response = await caches.match(request);
 
     if (response) {
-      this._fetchRequest(request);
       return response;
     }
     return this._fetchRequest(request);
@@ -27,6 +25,7 @@ const CacheHelper = {
   async _openCache() {
     return caches.open(CONFIG.CACHE_NAME);
   },
+
   async _fetchRequest(request) {
     const response = await fetch(request);
 

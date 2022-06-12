@@ -16,9 +16,9 @@ const Budaya = {
 
       <!-- Kebudayaan -->
       <section class="container-fluid my-5">
-        <div class="container budaya">
+        <div class="container">
           <h2 class="section-title text-center mb-3">Kebudayaan</h2>
-          <div class="budaya-list row g-2" id="budaya">
+          <div class="row g-2" id="budaya-list">
             
             </div>
           </div>
@@ -30,7 +30,7 @@ const Budaya = {
 
   async afterRender() {
     const cultures = await BudayakitaDbSource.budayaPage();
-    const culturesContainer = document.querySelector('#budaya');
+    const culturesContainer = document.querySelector('#budaya-list');
     cultures.forEach((culture) => {
       culturesContainer.innerHTML += createBudayaList(culture);
     });

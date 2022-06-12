@@ -3,7 +3,6 @@ import 'regenerator-runtime';
 
 const { assets } = global.serviceWorkerOption;
 
-/* eslint-disable no-restricted-globals */
 self.addEventListener('install', (event) => {
   event.waitUntil(CacheHelper.cachingAppShell([...assets, './']));
 });
