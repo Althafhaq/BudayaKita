@@ -36,7 +36,7 @@ const TentangKami = {
             </div>
             <div class="col-12 col-md-6 col-lg-3">
               <div class="card card-team">
-                <img src="assets/images/blank-profile.png" class="img-team rounded-circle mx-auto d-block" alt="...">
+                <img src="https://media-exp2.licdn.com/dms/image/C5103AQFTu42vml6AOg/profile-displayphoto-shrink_800_800/0/1584885458710?e=1660780800&v=beta&t=EpOegWirA2EsS_epghBMqhaJC2zEVifo52x-my_1nmE" class="img-team rounded-circle mx-auto d-block" alt="...">
                 <div class="card-body text-center">
                   <h5 class="card-title card-team-title">Alwan Dwi Putra</h5>
                   <h6 class="card-subtitle mb-2 text-muted">STT Nurul Fikri</h6>
