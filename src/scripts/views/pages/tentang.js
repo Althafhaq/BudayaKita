@@ -14,7 +14,7 @@ const TentangKami = {
       <section class="container-fluid my-5">
         <div class="container">
           <h2 class="section-title text-center mb-3">Tentang BudayaKita</h2>
-          <p>BudayaKita adalah salah satu website yang memberikan informasi menarik mengenai berbagai kebudayaan dan wisata dari Provinsi Jawa Barat yang begitu penuh makna dan sengat menarik untuk diketahui oleh bangsa kita saat ini. Berangkat dari kegelisahan kami terhadap warisan budaya Nusantara yang sangat unik dan menarik ini, kami mencoba mendokumentasikan dan merangkum informasi yang saya kumpulkan dari berbagai sumber.</p>
+          <p>BudayaKita adalah salah satu website yang memberikan informasi menarik mengenai berbagai kebudayaan dan wisata dari Provinsi Jawa Barat yang begitu penuh makna dan sangat menarik untuk diketahui oleh bangsa kita saat ini. Berangkat dari kegelisahan kami terhadap warisan budaya Nusantara yang sangat unik dan menarik ini, kami mencoba mendokumentasikan dan merangkum informasi yang saya kumpulkan dari berbagai sumber.</p>
           <span>Dengan dibuatnya website BudayaKita, harapan kami semoga informasi-informasi yang ada pada website ini dapat menambah rasa cinta dan bangga terhadap kebudayaan dari Provinsi Jawa Barat.</span>
         </div>
       </section>
