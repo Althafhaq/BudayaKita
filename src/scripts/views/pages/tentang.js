@@ -14,8 +14,8 @@ const TentangKami = {
       <section class="container-fluid my-5">
         <div class="container">
           <h2 class="section-title text-center mb-3">Tentang BudayaKita</h2>
-          <p>Untuk mengetahui informasi mengenai keanekaragaman budaya dan adat istiadat tersebut, biasanya dapat diperoleh melalui media-media yang ada seperti buku pelajaran, koran, majalah, ensiklopedia, radio, dan televisi. Tetapi dengan cara tersebut akan memakan waktu dan minimnya tentang informasi tersebut. Seiring dengan perkembangan teknologi informasi saat ini, kami memanfaatkan teknologi komputer sebagai media informasi yang berbentuk website, karena lebih efisien dan dapat menjangkau ke seluruh daerah atau tempat serta beberapa keunggulan lainnya.
-          </p>
+          <p>BudayaKita adalah salah satu website yang memberikan informasi menarik mengenai berbagai kebudayaan dan wisata dari Provinsi Jawa Barat yang begitu penuh makna dan sengat menarik untuk diketahui oleh bangsa kita saat ini. Berangkat dari kegelisahan kami terhadap warisan budaya Nusantara yang sangat unik dan menarik ini, kami mencoba mendokumentasikan dan merangkum informasi yang saya kumpulkan dari berbagai sumber.</p>
+          <span>Dengan dibuatnya website BudayaKita, harapan kami semoga informasi-informasi yang ada pada website ini dapat menambah rasa cinta dan bangga terhadap kebudayaan dari Provinsi Jawa Barat.</span>
         </div>
       </section>
 
@@ -65,9 +65,9 @@ const TentangKami = {
                 <div class="card-body text-center">
                   <h5 class="card-title card-team-title">Farach Ghanisa Damayanti</h5>
                   <h6 class="card-subtitle mb-2 text-muted">Universitas Gunadarma</h6>
-                  <a href="#" class="card-link"><i class="fab fa-instagram"></i></a>
-                  <a href="#" class="card-link"><i class="fab fa-github"></i></a>
-                  <a href="#" class="card-link"><i class="fab fa-linkedin"></i></a>
+                  <a href="https://instagram.com/farachghanisa" class="card-link"><i class="fab fa-instagram"></i></a>
+                  <a href="https://github.com/farachghanisa" class="card-link"><i class="fab fa-github"></i></a>
+                  <a href="https://linkedin.com/in/farachghanisa" class="card-link"><i class="fab fa-linkedin"></i></a>
                 </div>
               </div>
             </div>
