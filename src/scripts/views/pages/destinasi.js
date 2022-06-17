@@ -28,7 +28,7 @@ const Destinasi = {
   },
 
   async afterRender() {
-    const destinations = await BudayakitaDbSource.homeDestinasi();
+    const destinations = await BudayakitaDbSource.destinasiPage();
     const destinationsContainer = document.querySelector('#destinasi-list');
     destinations.forEach((destination) => {
       destinationsContainer.innerHTML += createDestinasiList(destination);
