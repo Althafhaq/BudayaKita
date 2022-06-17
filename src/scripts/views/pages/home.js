@@ -22,7 +22,7 @@ const Home = {
           <div class="carousel-inner text-center">
             <div class="carousel-item active" data-bs-interval="4000">
               <div class="card bg-dark text-white">
-                <img src="assets/images/highlight-1.jpg" class="highlight-img" alt="...">
+                <img src="assets/images/highlight-1.webp" class="highlight-img" alt="...">
                 <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
                   <h5 class="card-title card-highlight-title mb-2">Explore Amazing Culturation Together</h5>
                   <a href="#/budaya" class="btn btn-highlight mt-2"><i class="fas fa-eye"></i> Let's See</a>
@@ -31,7 +31,7 @@ const Home = {
             </div>
             <div class="carousel-item" data-bs-interval="4000">
               <div class="card bg-dark text-white">
-                <img src="assets/images/highlight-2.jpg" class="highlight-img" alt="...">
+                <img src="assets/images/highlight-2.webp" class="highlight-img" alt="...">
                 <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
                   <h5 class="card-title card-highlight-title mb-2">Explore Amazing Places Together</h5>
                   <a href="#/destinasi" type="button" class="btn btn-highlight mt-2"><i class="fas fa-eye"></i> Let's See</a>

@@ -58,7 +58,7 @@ const createDestinasiList = (destination) => `
         <img src="${destination.imageUrl}" class="card-image" alt="">
         <div class="card-name d-flex justify-content-between">
         <a href="#/detail-destinasi/${destination.id}">${destination.nama}</a>
-        <a href=""><i class="fas fa-angle-right"></i></a>
+        <a href="#/detail-destinasi/${destination.id}"><i class="fas fa-angle-right"></i></a>
         </div>
     </div>
   </div>

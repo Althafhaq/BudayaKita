@@ -21,6 +21,7 @@
 }
 
 .breadcrumb-item a {
+  padding: 12px 0;
   color: #201E25 !important;
   text-decoration: none;
 }
