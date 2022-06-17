@@ -53,9 +53,9 @@ const TentangKami = {
                 <div class="card-body text-center">
                   <h5 class="card-title card-team-title">Dimas Budi Utomo</h5>
                   <h6 class="card-subtitle mb-2 text-muted">Universitas Pamulang</h6>
-                  <a href="#" class="card-link"><i class="fab fa-instagram"></i></a>
-                  <a href="#" class="card-link"><i class="fab fa-github"></i></a>
-                  <a href="#" class="card-link"><i class="fab fa-linkedin"></i></a>
+                  <a href="https://www.instagram.com/dbu_708/" class="card-link"><i class="fab fa-instagram"></i></a>
+                  <a href="https://github.com/dimas708" class="card-link"><i class="fab fa-github"></i></a>
+                  <a href="https://www.linkedin.com/in/dimas708/" class="card-link"><i class="fab fa-linkedin"></i></a>
                 </div>
               </div>
             </div>
