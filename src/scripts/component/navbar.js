@@ -23,6 +23,7 @@ class AppBar extends HTMLElement {
                 <a class="nav-link" href="#/">Home</a>
                 <a class="nav-link" href="#/budaya">Budaya</a>
                 <a class="nav-link" href="#/destinasi">Destinasi</a>
+                <a class="nav-link" href="#/like">Favorit</a>
                 <a class="nav-link" href="#/tentang-kami">Tentang</a>
               </div>
             </div>

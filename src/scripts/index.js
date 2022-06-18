@@ -13,7 +13,7 @@ import App from './views/app';
 import swRegister from './utils/sw-register';
 
 const app = new App({
-  content: document.querySelector('main'),
+  content: document.querySelector('#mainContent'),
 });
 
 window.addEventListener('hashchange', () => {

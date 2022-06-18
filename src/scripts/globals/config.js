@@ -4,7 +4,8 @@ const CONFIG = {
   CACHE_NAME: 'BudayaKita-V1',
   DATABASE_NAME: 'budayakita-database',
   DATABASE_VERSION: 1,
-  OBJECT_STORE_NAME: 'budaya',
+  OBJECT_BUDAYA_NAME: 'budaya',
+  OBJECT_DESTINASI_NAME: 'destinasi',
 };
 
 export default CONFIG;

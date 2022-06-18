@@ -35,7 +35,7 @@ const TentangKami = {
                   <h6 class="card-subtitle mb-2 text-muted">Universitas Bina Insani</h6>
                   <a href="https://www.instagram.com/rai_sin1/" target="_blank" class="card-link"><i class="fab fa-instagram"></i></a>
                   <a href="https://github.com/Althafhaq" target="_blank" class="card-link"><i class="fab fa-github"></i></a>
-                  <a href="#" class="card-link"><i class="fab fa-linkedin"></i></a>
+                  <a href="https://www.linkedin.com/in/althaf-haq/" class="card-link"><i class="fab fa-linkedin"></i></a>
                 </div>
               </div>
             </div>

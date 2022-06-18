@@ -1,3 +1,4 @@
+/* eslint-disable comma-dangle */
 const createBudayaList = (culture) => `
   <div class="col-12 col-md-6 col-lg-3">
     <div class="card">
@@ -110,6 +111,17 @@ const createDestinasiDetail = (destination) => `
     </div>
   </div>
 `;
+const createLikeButtonTemplate = () => `
+  <button aria-label="like this Content" id="likeButton" class="like">
+     <i class="fa fa-heart-o" aria-hidden="true"></i>
+  </button>
+`;
+
+const createLikedButtonTemplate = () => `
+  <button aria-label="unlike this Content" id="likeButton" class="like">
+    <i class="fas fa-heart" aria-hidden="true"></i>
+  </button>
+`;
 
 export {
   createBudayaList,
@@ -118,4 +130,6 @@ export {
   createDestinasiList,
   createDestinasiDetailHero,
   createDestinasiDetail,
+  createLikedButtonTemplate,
+  createLikeButtonTemplate
 };

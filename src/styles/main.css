@@ -202,3 +202,20 @@ h3 {
 .nav-link-footer:hover {
   color: #F9AB30;
 }
+
+.like {
+  font-size: 18px;
+  position: absolute;
+  bottom: 100px;
+  right: 16px;
+  background-color: #db0000;
+  color: white;
+  border: 0;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
