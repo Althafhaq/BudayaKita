@@ -8,7 +8,7 @@ class AppBar extends HTMLElement {
       <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
         <div class="container">
           <a class="navbar-brand" href="#">
-            <img src="assets/images/brand.png" alt="" width="32" height="32">
+            <img src="assets/images/brand.webp" alt="" width="32" height="32">
             BudayaKita
           </a>
           <button class="navbar-drawer" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions" aria-expanded="false" aria-label="Toggle navigation">
