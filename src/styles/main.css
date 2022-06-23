@@ -60,17 +60,17 @@ h3 {
 }
 
 .hero-inner-home {
-  padding-bottom: 100px;
+  padding-bottom: 75px;
 }
 
 .hero-title {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 600;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .hero-title span {
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 500;
 }
 
@@ -102,14 +102,14 @@ h3 {
 }
 
 .card-highlight-title {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   margin: 0;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
 .btn-highlight {
-  width: 200px;
+  width: 150px;
   height: 40px;
   color: white !important;
   font-weight: 500 !important;
@@ -137,7 +137,7 @@ h3 {
   left: 0;
   right: 0;
   z-index: 99;
-  padding: 0 32px;
+  padding: 0 16px;
   background-color: rgba(0, 0, 0, 0.8);
   text-align: left;
   align-items: center;
@@ -147,7 +147,7 @@ h3 {
 
 .card-name a {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   color: white;
   padding: 10px 0;
@@ -165,6 +165,10 @@ h3 {
 /*
   Tentang
 */
+.about-description p {
+  margin-bottom: 0;
+}
+
 .card-team {
   border: solid 1px #00000040 !important;
 }
@@ -195,6 +199,10 @@ h3 {
 /* Footer */
 .app-footer {
   background-color: #201E25;
+}
+
+.nav-footer {
+  display: none;
 }
 
 .nav-link-footer {

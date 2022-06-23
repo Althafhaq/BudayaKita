@@ -15,7 +15,7 @@ class AppFooter extends HTMLElement {
               </a>
             </div>
             <div class="py-2">
-              <ul class="nav">
+              <ul class="nav-footer">
                 <li class="nav-item"><a href="#/" class="nav-link-footer">Home</a></li>
                 <li class="nav-item"><a href="#/budaya" class="nav-link-footer">Budaya</a></li>
                 <li class="nav-item"><a href="#/destinasi" class="nav-link-footer">Destinasi</a></li>
