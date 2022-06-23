@@ -11,31 +11,27 @@ const TentangKami = {
       </section>
       <!-- End Hero -->
 
-      <section class="container-fluid my-5">
+      <section class="container-fluid py-5">
         <div class="container">
-          <div class="row">
-            <div class="col">
-              <h2 class="section-title text-center mb-3">Tentang BudayaKita</h2>
-              <p class="tentang-description">
-                BudayaKita adalah salah satu website yang memberikan informasi menarik mengenai berbagai kebudayaan dan wisata dari Provinsi Jawa Barat yang begitu penuh makna
-                dan sangat menarik untuk diketahui oleh bangsa kita saat ini. 
-                <br>
-                Berangkat dari kegelisahan kami terhadap warisan budaya Nusantara yang sangat unik dan menarik ini,
-                kami mencoba mendokumentasikan dan merangkum informasi yang saya kumpulkan dari berbagai sumber. Dengan dibuatnya website BudayaKita, harapan kami semoga 
-                informasi-informasi yang ada pada website ini dapat menambah rasa cinta dan bangga terhadap kebudayaan dari Provinsi Jawa Barat.
-              </p>
+          <div class="d-lg-flex flex-row">
+            <div class="d-lg-flex flex-column justify-content-center">
+              <img src="assets/images/undraw_Team_collaboration_re_ow29.webp" class="img-fluid" alt="...">
             </div>
-            <div class="col">
-            <img src="assets/images/undraw_Best_place_re_lne9.webp" class="img" alt="...">
+            <div class="about-description d-lg-flex flex-column justify-content-center">
+              <h2 class="section-title mb-3">Tentang BudayaKita</h2>
+              <p>
+              BudayaKita adalah sebuah platform yang memberikan informasi menarik mengenai berbagai kebudayaan dan destinasi wisata dari Provinsi Jawa Barat yang begitu penuh makna
+              dan sangat menarik untuk diketahui oleh bangsa kita.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="container-fluid my-5">
+      <section class="container-fluid py-5 mb-5">
         <div class="container">
           <h2 class="section-title text-center mb-3">Tim Kami</h2>
-          <div class="budaya-list row g-2">
+          <div class="row g-2">
             <div class="col-12 col-md-6 col-lg-3">
               <div class="card card-team">
                 <img src="assets/images/fotoA.webp" class="img-team rounded-circle mx-auto d-block" alt="...">

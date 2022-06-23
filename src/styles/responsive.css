@@ -19,6 +19,42 @@
   .hero-favorite {
     background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)), url(assets/images/hero/hero-5.webp);
   }
+
+  .hero-inner-home {
+    padding-bottom: 100px;
+  }
+  
+  .hero-title {
+    font-size: 30px;
+  }
+  
+  .hero-title span {
+    font-size: 28px;
+  }
+  
+  .card-highlight-title {
+    font-size: 18px;
+  }
+  
+  .btn-highlight {
+    width: 200px;
+  }
+
+  .card-name {
+    padding: 0 32px;
+  }
+  
+  .card-name a {
+    font-size: 18px;
+  }
+
+  .nav-footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+  }
 }
 
 /* Large Screen */
@@ -53,5 +89,9 @@
 @media (min-width: 1200px) {
   .hero-inner {
     padding-left: 36px;
+  }
+
+  .about-description {
+    margin: 0 32px;
   }
 }

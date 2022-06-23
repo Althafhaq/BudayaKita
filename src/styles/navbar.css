@@ -17,7 +17,6 @@
   font-size: 24px;
 }
 
-
 .navbar-drawer:hover {
   color: #F9AB30;
 }
@@ -33,6 +32,10 @@
 
 .nav-link:hover {
   color: #F9AB30 !important;
+}
+
+.offcanvas-end {
+  width: 200px !important;
 }
 
 .offcanvas-header .btn-close {
