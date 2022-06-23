@@ -1,3 +1,26 @@
+/* Medium Screen */
+@media (min-width: 600px) {
+  .hero-home {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)), url(assets/images/hero/hero-1.webp);
+  }
+  
+  .hero-budaya {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)), url(assets/images/hero/hero-2.webp);
+  }
+  
+  .hero-destinasi {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)), url(assets/images/hero/hero-3.webp);
+  }
+  
+  .hero-tentang {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)), url(assets/images/hero/hero-4.webp);
+  }
+  
+  .hero-favorite {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)), url(assets/images/hero/hero-5.webp);
+  }
+}
+
 /* Large Screen */
 @media (min-width: 990px) {
   .navbar-drawer {

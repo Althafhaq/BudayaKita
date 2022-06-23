@@ -1,3 +1,5 @@
+import 'lazysizes';
+import 'lazysizes/plugins/parent-fit/ls.parent-fit';
 import UrlParser from '../routes/url-parser';
 import routes from '../routes/routes';
 

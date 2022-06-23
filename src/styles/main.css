@@ -35,23 +35,23 @@ h3 {
 }
 
 .hero-home {
-  background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)), url(assets/images/hero-1.webp);
+  background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)), url(assets/images/hero/hero-1-small.webp);
 }
 
 .hero-budaya {
-  background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)), url(assets/images/hero-2.webp);
+  background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)), url(assets/images/hero/hero-2-small.webp);
 }
 
 .hero-destinasi {
-  background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)), url(assets/images/hero-3.webp);
+  background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)), url(assets/images/hero/hero-3-small.webp);
 }
 
 .hero-tentang {
-  background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)), url(assets/images/hero-4.webp);
+  background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)), url(assets/images/hero/hero-4-small.webp);
 }
 
 .hero-favorite {
-  background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)), url(assets/images/hero-5.webp);
+  background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)), url(assets/images/hero/hero-5-small.webp);
 }
 
 .hero-inner {

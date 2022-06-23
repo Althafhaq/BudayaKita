@@ -1,7 +1,7 @@
 const createBudayaList = (culture) => `
   <div class="col-12 col-md-6 col-lg-3">
     <div class="card">
-      <img src="${culture.imageUrl}" class="card-image" alt="">
+      <img src="${culture.imageUrl}" class="card-image lazyload" alt="">
       <div class="card-name d-flex justify-content-between">
         <a href="${`/#/detail-budaya/${culture.id}`}">${culture.nama}</a>
         <a href="${`/#/detail-budaya/${culture.id}`}"><i class="fas fa-angle-right"></i></a>
@@ -11,7 +11,7 @@ const createBudayaList = (culture) => `
 `;
 
 const createBudayaDetailHero = (culture) => `
-  <img class="hero-detail-bg" src="${culture.imageUrl}">
+  <img class="hero-detail-bg lazyload" src="${culture.imageUrl}">
   <div class="container">
     <div class="hero-detail-inner d-flex flex-column justify-content-center align-items-center">
       <h2 class="hero-title text-white">${culture.nama}</h2>
@@ -55,7 +55,7 @@ const createBudayaDetail = (culture) => `
 const createDestinasiList = (destination) => `
   <div class="col-12 col-md-6 col-lg-3">
     <div class="card">
-        <img src="${destination.imageUrl}" class="card-image" alt="">
+        <img src="${destination.imageUrl}" class="card-image lazyload" alt="">
         <div class="card-name d-flex justify-content-between">
         <a href="#/detail-destinasi/${destination.id}">${destination.nama}</a>
         <a href="#/detail-destinasi/${destination.id}"><i class="fas fa-angle-right"></i></a>
@@ -65,7 +65,7 @@ const createDestinasiList = (destination) => `
 `;
 
 const createDestinasiDetailHero = (destination) => `
-  <img class="hero-detail-bg" src="${destination.imageUrl}">
+  <img class="hero-detail-bg lazyload" src="${destination.imageUrl}">
   <div class="container">
     <div class="hero-detail-inner d-flex flex-column justify-content-center align-items-center">
       <h2 class="hero-title text-white">${destination.nama}</h2>
