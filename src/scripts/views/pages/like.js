@@ -1,42 +1,18 @@
 import FavoriteIdb from '../../data/favorite-idb';
-import { createDestinasiList } from '../templates/template-creator';
+import likedDestinationSearchView from './liked-destination/liked-destination-search-view';
+import likedDestinationSearchPresenter from './liked-destination/liked-destination-search-presenter';
+import likedDestinationShowPresenter from './liked-destination/liked-destination-show-presenter';
+
+const view = new likedDestinationSearchView();
 
 const Like = {
   async render() {
-    return `
-    <!-- Hero -->
-    <section id="hero" class="hero-destinasi d-flex flex-column justify-content-center">
-      <div class="container">
-        <div class="hero-inner text-center">
-          <h1 class="hero-title text-white">Destinasi Favorit</h1>
-        </div>
-      </div>
-    </section>
-    <!-- End Hero -->
-
-    <!-- Destinasi Section -->
-    <section class="container-fluid my-5">
-      <div class="container">
-        <h2 class="section-title text-center mb-3">Destinasi</h2>
-        <div class="row g-2" id="destinasi-list"> 
-        
-        </div>
-      </div>
-    </section>
-    <!-- End Destinasi Section -->
-    `;
+    return view.getTemplate();
   },
 
   async afterRender() {
-    const destinations = await FavoriteIdb.getAllDestinations();
-    const destinationContainer = document.querySelector('#destinasi-list');
-    if (destinations.length === 0) {
-      destinationContainer.innerHTML += `<div class="destinasi-item__not__found">
-      <p>Tidak ada untuk ditampilkan</p></div> `;
-    }
-    destinations.forEach((destination) => {
-      destinationContainer.innerHTML += createDestinasiList(destination);
-    });
+    new likedDestinationShowPresenter({ view, favoriteDestinations: FavoriteIdb });
+    new likedDestinationSearchPresenter({ view, favoriteDestinations: FavoriteIdb });
   },
 };
 

@@ -21,6 +21,10 @@
   .card-highlight-title {
     font-size: 24px;
   }
+
+  .search-input {
+    max-width: 35%;
+  }
 }
 
 @media (min-width: 1200px) {

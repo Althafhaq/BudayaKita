@@ -34,8 +34,8 @@ const FavoriteIdb = {
   },
 
   async searchDestinations(query) {
-    return (await this.getAllDestinations()).filter((destination) => {
-      const loweredCaseDestinationName = (destination.name || '-').toLowerCase();
+    return (await this.getAllDestinations()).filter((destinasi) => {
+      const loweredCaseDestinationName = (destinasi.nama || '-').toLowerCase();
       const jammedRDestinationName = loweredCaseDestinationName.replace(/\s/g, '');
 
       const loweredCaseQuery = query.toLowerCase();
