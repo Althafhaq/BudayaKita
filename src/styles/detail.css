@@ -1,0 +1,52 @@
+#hero-detail {
+  position: relative;
+  background: #000;
+}
+
+.hero-detail-bg {
+  width: 100%;
+  opacity: 0.80;
+  height: 713px;
+  object-position: center;
+  object-fit: cover;
+}
+
+.hero-detail-inner {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 8px;
+}
+
+.breadcrumb {
+  margin-bottom: 0 !important;
+}
+
+.breadcrumb-item a {
+  padding: 12px 0;
+  color: #201E25 !important;
+  text-decoration: none;
+}
+
+.breadcrumb-item a:hover {
+  color: #F9AB30 !important;
+}
+
+.like {
+  height: 44px;
+}
+
+.detail-icon {
+  font-size: 24px;
+}
+
+.detail-text h4 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.detail-text p {
+  margin: 0;
+}

@@ -1,0 +1,57 @@
+/* Medium Screen */
+@media (min-width: 600px) {
+  .hero-home {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)), url(assets/images/hero/hero-1.webp);
+  }
+  
+  .hero-budaya {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)), url(assets/images/hero/hero-2.webp);
+  }
+  
+  .hero-destinasi {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)), url(assets/images/hero/hero-3.webp);
+  }
+  
+  .hero-tentang {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)), url(assets/images/hero/hero-4.webp);
+  }
+  
+  .hero-favorite {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)), url(assets/images/hero/hero-5.webp);
+  }
+}
+
+/* Large Screen */
+@media (min-width: 990px) {
+  .navbar-drawer {
+    display: none;
+  }
+  
+  .nav-link {
+    color: white !important;
+    margin-left: 32px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .hero-title {
+    font-size: 36px;
+  }
+
+  .hero-title span {
+    font-size: 32px;
+  }
+
+  .card-highlight-title {
+    font-size: 24px;
+  }
+
+  .search-input {
+    max-width: 35%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero-inner {
+    padding-left: 36px;
+  }
+}
