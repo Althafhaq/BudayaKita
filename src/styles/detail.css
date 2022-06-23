@@ -20,6 +20,10 @@
   padding: 8px;
 }
 
+.breadcrumb {
+  margin-bottom: 0 !important;
+}
+
 .breadcrumb-item a {
   padding: 12px 0;
   color: #201E25 !important;
@@ -28,6 +32,10 @@
 
 .breadcrumb-item a:hover {
   color: #F9AB30 !important;
+}
+
+.like {
+  height: 44px;
 }
 
 .detail-icon {

@@ -1,4 +1,3 @@
-/* eslint-disable comma-dangle */
 const createBudayaList = (culture) => `
   <div class="col-12 col-md-6 col-lg-3">
     <div class="card">
@@ -76,13 +75,18 @@ const createDestinasiDetailHero = (destination) => `
 
 const createDestinasiDetail = (destination) => `
   <div class="container">
-    <nav aria-label="breadcrumb">
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="#/">Home</a></li>
-        <li class="breadcrumb-item"><a href="#/destinasi">Destinasi</a></li>
-        <li class="breadcrumb-item active" aria-current="page">${destination.nama}</li>
-      </ol>
-    </nav>
+  <div class="d-flex flex-wrap justify-content-between align-items-center">
+      <div class="my-1">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#/">Home</a></li>
+            <li class="breadcrumb-item"><a href="#/destinasi">Destinasi</a></li>
+            <li class="breadcrumb-item active" aria-current="page">${destination.nama}</li>
+          </ol>
+        </nav>
+      </div>
+      <div id="likeButtonContainer" class="my-1"></div>
+    </div>
     <div class="detail-destinasi">
       <div class="py-3">
         <div class="d-flex flex-row py-2">
@@ -112,14 +116,14 @@ const createDestinasiDetail = (destination) => `
   </div>
 `;
 const createLikeButtonTemplate = () => `
-  <button aria-label="like this Content" id="likeButton" class="like">
-     <i class="fa fa-heart-o" aria-hidden="true"></i>
+  <button aria-label="unlike this Content" id="likeButton" class="btn btn-outline-primary like">
+    Like <i class="far fa-thumbs-up" aria-hidden="true"></i>
   </button>
 `;
 
 const createLikedButtonTemplate = () => `
-  <button aria-label="unlike this Content" id="likeButton" class="like">
-    <i class="fas fa-heart" aria-hidden="true"></i>
+  <button aria-label="like this Content" id="likeButton" class="btn btn-primary like">
+    Like <i class="fas fa-thumbs-up" aria-hidden="true"></i>
   </button>
 `;
 
@@ -131,5 +135,5 @@ export {
   createDestinasiDetailHero,
   createDestinasiDetail,
   createLikedButtonTemplate,
-  createLikeButtonTemplate
+  createLikeButtonTemplate,
 };

@@ -1,7 +1,5 @@
 import UrlParser from '../../routes/url-parser';
 import BudayakitaDbSource from '../../data/budayakitaDB';
-import { LikeButtonBudayaPresenter } from '../../utils/like-button-presenter';
-import FavoriteIdb from '../../data/favorite-idb';
 import { createBudayaDetail, createBudayaDetailHero } from '../templates/template-creator';
 
 const DetailBudaya = {
@@ -16,21 +14,11 @@ const DetailBudaya = {
   async afterRender() {
     const url = UrlParser.parseActiveUrlWithoutCombiner();
     const culture = await BudayakitaDbSource.budayaDetail(url.id);
-
     const heroContainer = document.querySelector('#hero-detail');
     heroContainer.innerHTML = createBudayaDetailHero(culture);
 
     const cultureContainer = document.querySelector('#budaya');
     cultureContainer.innerHTML = createBudayaDetail(culture);
-    LikeButtonBudayaPresenter.init({
-      likeButtonContainer: document.querySelector('#likeButtonContainer'),
-      favoriteBudayas: FavoriteIdb,
-      culture: {
-        id: culture.id,
-        nama: culture.nama,
-        imageUrl: culture.imageUrl,
-      },
-    });
   },
 };
 
